@@ -37,6 +37,7 @@ function App() {
                       console.log("Button Clicked. New Count:", count + 1);
                     }}
                     className={`cell-cont ${isSelected ? chance : ""}`}
+                    key={cell}
                   >
                     {index+1}
                   </button>

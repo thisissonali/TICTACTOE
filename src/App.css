@@ -18,13 +18,13 @@
 .row{
   display: flex;
   /* flex-direction: column; */
+  flex-wrap: wrap;
 }
 .cell-cont{
   height: 33.3%;
   border: 1px solid white;
   background-color: #87C4FF;
-  width: 33%;
-  flex-wrap: wrap;
+  width: 33.3%;
 }
 .red{
   background-color: red;
