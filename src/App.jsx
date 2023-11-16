@@ -34,55 +34,84 @@ function App() {
           <button
             onClick={() => {
               setCount((prevCount) => prevCount + 1);
+              setIsSelected(true);
               console.log("Button Clicked. New Count:", count + 1);
             }}
-            className={`cell-cont ${chance}`}
+            className={`cell-cont ${isSelected ? chance : ""}`}
           >
             2
           </button>
           <button
-            onClick={() => setCount((prevCount) => prevCount + 1)}
-            className={`cell-cont ${chance}`}
+            onClick={() => {
+              setCount((prevCount) => prevCount + 1);
+              setIsSelected(true);
+              console.log("Button Clicked. New Count:", count + 1);
+            }}
+            className={`cell-cont ${isSelected ? chance : ""}`}
           >
             3
           </button>
         </div>
         <div className="row">
           <button
-            onClick={() => setCount((prevCount) => prevCount + 1)}
-            className={`cell-cont ${chance}`}
+            onClick={() => {
+              setCount((prevCount) => prevCount + 1);
+              setIsSelected(true);
+              console.log("Button Clicked. New Count:", count + 1);
+            }}
+            className={`cell-cont ${isSelected ? chance : ""}`}
           >
             4
           </button>
           <button
-            onClick={() => setCount((prevCount) => prevCount + 1)}
-            className={`cell-cont ${chance}`}
+            onClick={() => {
+              setCount((prevCount) => prevCount + 1);
+              setIsSelected(true);
+              console.log("Button Clicked. New Count:", count + 1);
+            }}
+            className={`cell-cont ${isSelected ? chance : ""}`}
           >
             5
           </button>
           <button
-            onClick={() => setCount((prevCount) => prevCount + 1)}
-            className={`cell-cont ${chance}`}
+            onClick={() => {
+              setCount((prevCount) => prevCount + 1);
+              setIsSelected(true);
+              console.log("Button Clicked. New Count:", count + 1);
+            }}
+            className={`cell-cont ${isSelected ? chance : ""}`}
           >
             6
           </button>
         </div>
         <div className="row">
           <button
-            onClick={() => setCount((prevCount) => prevCount + 1)}
-            className={`cell-cont ${chance}`}
+            onClick={() => {
+              setCount((prevCount) => prevCount + 1);
+              setIsSelected(true);
+              console.log("Button Clicked. New Count:", count + 1);
+            }}
+            className={`cell-cont ${isSelected ? chance : ""}`}
           >
             7
           </button>
           <button
-            onClick={() => setCount((prevCount) => prevCount + 1)}
-            className={`cell-cont ${chance}`}
+            onClick={() => {
+              setCount((prevCount) => prevCount + 1);
+              setIsSelected(true);
+              console.log("Button Clicked. New Count:", count + 1);
+            }}
+            className={`cell-cont ${isSelected ? chance : ""}`}
           >
             8
           </button>
           <button
-            onClick={() => setCount((prevCount) => prevCount + 1)}
-            className={`cell-cont ${chance}`}
+            onClick={() => {
+              setCount((prevCount) => prevCount + 1);
+              setIsSelected(true);
+              console.log("Button Clicked. New Count:", count + 1);
+            }}
+            className={`cell-cont ${isSelected ? chance : ""}`}
           >
             9
           </button>
