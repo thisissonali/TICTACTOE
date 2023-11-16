@@ -6,7 +6,8 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(1);
   const [chance, setChance] = useState('');
-  
+  const [isSelected, setIsSelected] = useState(false);
+
   useEffect(() => {
     if (count % 2 !== 0) {
       setChance('red')
@@ -23,9 +24,10 @@ function App() {
           <button
             onClick={() => {
               setCount((prevCount) => prevCount + 1);
+              setIsSelected(true);
               console.log("Button Clicked. New Count:", count + 1);
             }}
-            className={`cell-cont ${chance}`}
+            className={`cell-cont {isSelected ? chance : ''}`}
           >
             1
           </button>
