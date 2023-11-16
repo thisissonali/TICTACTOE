@@ -11,17 +11,20 @@
 }
 .container{
   width: 500px;
-  display: flex;
+  /* display: flex; */
   height: 50%;
   background-color: #87C4FF;
 }
 .row{
   display: flex;
+  /* flex-direction: column; */
 }
 .cell-cont{
   height: 33.3%;
   border: 1px solid white;
   background-color: #87C4FF;
+  width: 33%;
+  flex-wrap: wrap;
 }
 .red{
   background-color: red;
