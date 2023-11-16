@@ -27,7 +27,7 @@ function App() {
               setIsSelected(true);
               console.log("Button Clicked. New Count:", count + 1);
             }}
-            className={`cell-cont {isSelected ? chance : ''}`}
+            className={`cell-cont ${isSelected ? chance : ""}`}
           >
             1
           </button>
